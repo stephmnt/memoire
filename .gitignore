@@ -220,6 +220,6 @@ TSWLatexianTemp*
 *-tags.tex
 
 # Jekyll
-_site
+_site 
 .sass-cache
 .jekyll-metadata
