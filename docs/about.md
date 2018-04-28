@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## À propos de ce site
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Le présent site est hébergé par github.com est développé avec [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
+Le code source de Jekyll est disponible sur Github :
 [jekyll](https://github.com/jekyll/jekyll)
 
+Le design a été réalisé par HTML5 UP, adapté pour Jekyll par Chris Bobble.
 
-[jekyll-organization]: https://github.com/jekyll
+Enfin, je l'ai forké pour donner un look "LaTeX". Ce fork est disponible sur GitHub également.
+
+La partie web de ce projet ce situe dans le dossier docs.
+
+Toute la partie web de ce projet est sous la même licence : Creative Commons 3.0 by-sa.
+
+## À propos du projet de mémoire
+
+Le mémoire a été rédigé avec LaTeX (prononcer latèque). Le code source du projet est disponible sur github avec la licence MIT. 
