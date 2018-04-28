@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Voici la documentation associée à la réalisation de mon mémoire de recherche au CNAM "Apprendre à innover".
 email: stephane.manet.auditeur@lecnam.net
 baseurl: "/memoire" # the subpath of your site, e.g. /blog
-url: "https://stephmnt.github.io/memoire" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stephmnt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stephanemanet
 github_username:  stephmnt
 
