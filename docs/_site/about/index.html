@@ -6,18 +6,18 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 -->
 <html><head><!-- Robots -->
-  <meta name="robots" content="index, follow" /><link rel="canonical" href="http://localhost:4000/memoire/about/" /><!-- Title, description, author --><title>About | Apprendre à Innover - YMémoire de recherche</title>
+  <meta name="robots" content="index, follow" /><link rel="canonical" href="http://localhost:4000/memoire/about/" /><!-- Title, description, author --><title>À propos | Apprendre à Innover - YMémoire de recherche</title>
   <meta name="description" content="Voici la documentation associée à la réalisation de mon mémoire de recherche au CNAM &quot;Apprendre à innover&quot;." />
   <meta name="author" content="Stéphane Manet" />
-  
+
   <!-- Open Graph -->
-  <meta property="og:title" content="About | Apprendre à Innover - YMémoire de recherche" />
+  <meta property="og:title" content="À propos | Apprendre à Innover - YMémoire de recherche" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="http://localhost:4000/memoire/assets/images/avatar.jpg" />
   <meta property="og:url" content="http://localhost:4000/memoire/about/" />
   <meta property="og:site_name" content="Apprendre à Innover" />
   <meta property="og:description" content="Voici la documentation associée à la réalisation de mon mémoire de recherche au CNAM &quot;Apprendre à innover&quot;." />
-  
+
   <!-- Styles -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -34,8 +34,16 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <script src="/memoire/assets/js/util.js" defer></script>
   <!--[if lte IE 8]><script src="/memoire/assets/js/ie/respond.min.js" defer></script><![endif]-->
   <script src="/memoire/assets/js/main.js" defer></script>
+  <script src="/memoire/assets/js/bibtex.min.js" defer></script>
+  <bibtex src="https://raw.githubusercontent.com/CoolProp/CoolProp/master/CoolPropBibTeXLibrary.bib"></bibtex>
+  <!-- <bibtex src="test.bib"></bibtex> -->
 
-</head><body><!-- Header -->
+  <style>
+  bibtex { display: none; }
+  #bibtex_errors { margin-top:10px; color: red;}
+  </style>
+</head>
+<body><!-- Header -->
 <div id="header">
   <div class="top"><!-- Logo -->
 <div id="logo">
@@ -46,12 +54,14 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   </a>
 </div><!-- Nav -->
 <nav id="nav">
-  <ul><li><a href="#" id="about" class="active">
-            <span class="icon fa-link">About</span>
+  <ul><li><a href="#" id="à-propos" class="active">
+            <span class="icon fa-link">À propos</span>
           </a></li><li><a href="http://localhost:4000/memoire/" id="my-great-homepage-link">
             <span class="icon fa-home">My Great Homepage</span>
           </a></li><li><a href="http://localhost:4000/memoire/blog.html" id="amazing-blog-link">
             <span class="icon fa-pencil">Amazing Blog</span>
+          </a></li><li><a href="http://localhost:4000/memoire/bibtex.html" id="bibliographie-link">
+            <span class="icon fa-book">Bibliographie</span>
           </a></li><li><a href="http://localhost:4000/memoire/reading-list.html" id="reading-list-link">
             <span class="icon fa-book">Reading List</span>
           </a></li></ul>
@@ -66,22 +76,16 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 	<article class="shade-two">
 	  <div class="container">
 			<header>
-				<h2>About</h2></header><h2 id="à-propos-de-ce-site">À propos de ce site</h2>
+				<h2>À propos</h2></header><h3 id="à-propos-de-ce-site">À propos de ce site</h3>
 
-<p>Le présent site est hébergé par github.com est développé avec <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+<p>Le présent site est hébergé par github.com est développé avec <a href="https://jekyllrb.com/">jekyllrb.com</a>
+Le code source de Jekyll est disponible sur Github : <a href="https://github.com/jekyll/jekyll">jekyll</a>
+Le design a été réalisé par HTML5 UP, adapté pour Jekyll par Chris Bobbe.
+Enfin, je l’ai forké pour donner un look “LaTeX”. Ce fork est disponible sur GitHub également.
+La partie web de ce projet ce situe dans le dossier docs.
+Toute la partie web de ce projet est sous la même licence : Creative Commons 3.0 by-sa.</p>
 
-<p>Le code source de Jekyll est disponible sur Github :
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
-
-<p>Le design a été réalisé par HTML5 UP, adapté pour Jekyll par Chris Bobble.</p>
-
-<p>Enfin, je l’ai forké pour donner un look “LaTeX”. Ce fork est disponible sur GitHub également.</p>
-
-<p>La partie web de ce projet ce situe dans le dossier docs.</p>
-
-<p>Toute la partie web de ce projet est sous la même licence : Creative Commons 3.0 by-sa.</p>
-
-<h2 id="à-propos-du-projet-de-mémoire">À propos du projet de mémoire</h2>
+<h3 id="à-propos-du-projet-de-mémoire">À propos du projet de mémoire</h3>
 
 <p>Le mémoire a été rédigé avec LaTeX (prononcer latèque). Le code source du projet est disponible sur github avec la licence MIT.</p>
 </div>
