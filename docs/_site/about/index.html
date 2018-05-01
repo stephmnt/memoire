@@ -56,10 +56,10 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 <nav id="nav">
   <ul><li><a href="#" id="à-propos" class="active">
             <span class="icon fa-link">À propos</span>
-          </a></li><li><a href="http://localhost:4000/memoire/" id="my-great-homepage-link">
-            <span class="icon fa-home">My Great Homepage</span>
-          </a></li><li><a href="http://localhost:4000/memoire/blog.html" id="amazing-blog-link">
-            <span class="icon fa-pencil">Amazing Blog</span>
+          </a></li><li><a href="http://localhost:4000/memoire/" id="accueil-link">
+            <span class="icon fa-home">Accueil</span>
+          </a></li><li><a href="http://localhost:4000/memoire/blog.html" id="jalons-link">
+            <span class="icon fa-check">Jalons</span>
           </a></li><li><a href="http://localhost:4000/memoire/bibtex.html" id="bibliographie-link">
             <span class="icon fa-book">Bibliographie</span>
           </a></li><li><a href="http://localhost:4000/memoire/reading-list.html" id="reading-list-link">
@@ -78,16 +78,23 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 			<header>
 				<h2>À propos</h2></header><h3 id="à-propos-de-ce-site">À propos de ce site</h3>
 
-<p>Le présent site est hébergé par github.com est développé avec <a href="https://jekyllrb.com/">jekyllrb.com</a>
-Le code source de Jekyll est disponible sur Github : <a href="https://github.com/jekyll/jekyll">jekyll</a>
-Le design a été réalisé par HTML5 UP, adapté pour Jekyll par Chris Bobbe.
-Enfin, je l’ai forké pour donner un look “LaTeX”. Ce fork est disponible sur GitHub également.
-La partie web de ce projet ce situe dans le dossier docs.
-Toute la partie web de ce projet est sous la même licence : Creative Commons 3.0 by-sa.</p>
+<p>Le présent site est hébergé par github.com est développé avec <a href="https://jekyllrb.com/">jekyllrb.com</a> dont le code source  <a href="https://github.com/jekyll/jekyll">est disponible sur Github</a>.
+Le design a été réalisé par HTML5 UP, <a href="https://github.com/chrisbobbe/jekyll-theme-prologue">adapté pour Jekyll par Chris Bobbe</a>. Enfin, je l’ai forké pour donner un look “LaTeX”. <a href="https://github.com/stephmnt/jekyll-latex">Ce fork est disponible sur GitHub</a> également.
+Toute la partie web de ce projet est sous la même licence  que le version initiale : Creative Commons 3.0 by-sa.</p>
+
+<p>La bibliographie a été réalisé grâce au script <a href="https://github.com/pcooksey/bibtex-js">bibtex-js</a></p>
+
+<p>La partie web de ce projet ce situe dans le dossier /docs. Pour l’exécuter en local, il faut d’abord installer Jekyll (et vérifier que votre version de ruby est à jour de la 2.3) :</p>
+<pre>gem install jekyll bundler</pre>
+<p>Ensuite, il faut lancer Jekyll :</p>
+<pre>cd docs</pre>
+<pre>bundle exec jekyll serve</pre>
+<pre># =&gt; Puis visiter http://localhost:4000</pre>
+<p>Plus d’informations sur la doc officielle de Jekyll, en particulier pour les utilisateurs de <a href="https://jekyllrb.com/docs/windows/">Windows</a>.</p>
 
 <h3 id="à-propos-du-projet-de-mémoire">À propos du projet de mémoire</h3>
 
-<p>Le mémoire a été rédigé avec LaTeX (prononcer latèque). Le code source du projet est disponible sur github avec la licence MIT.</p>
+<p>Le mémoire a été rédigé avec LaTeX (prononcer latèque). Le code source du projet est disponible sur github avec la licence GNU GPL v3.</p>
 </div>
 	</article>
 </div><!-- Footer -->
