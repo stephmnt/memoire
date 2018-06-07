@@ -45,7 +45,12 @@
   <!--[if lte IE 8]><script src="{{- 'assets/js/ie/respond.min.js' | relative_url -}}" defer></script><![endif]-->
   <script src="{{- 'assets/js/main.js' | relative_url -}}" defer></script>
   <script src="{{- 'assets/js/bibtex.min.js' | relative_url -}}" defer></script>
-  <bibtex src="{{- site.bibtex -}}"></bibtex>
+{% for item in site.bibtex %}
+
+  <bibtex src="https://raw.githubusercontent.com/{{- site.github_url -}}/master/{{{- item -}}"></bibtex>
+{% endfor %}
+
+  <!-- <bibtex src="https://raw.githubusercontent.com/stephmnt/at-ratp/master/biblio/fad111.bib"></bibtex> -->
   <!-- <bibtex src="test.bib"></bibtex> -->
 
   <style>

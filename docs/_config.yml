@@ -41,13 +41,15 @@ author: Stéphane Manet
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/memoire" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Social settings
+github_user: stephmnt
+github_repo: memoire
 web_url: https://stephma.net
 facebook_url: https://facebook.com/stephanemanet
-github_url: https://github.com/stephmnt
+github_url: stephmnt/memoire
 googleplus_url:
 instagram_url: https://instagram/stephanemanet
 linkedin_url: https://linkedin.com/in/stephanemanet
@@ -59,7 +61,9 @@ twitter_url: https://twitter.com/stephanemanet
 google_analytics:
 
 # Full path of bibTeX file goes here:
-bibtex: https://raw.githubusercontent.com/CoolProp/CoolProp/master/CoolPropBibTeXLibrary.bib
+bibtex:
+  - /bib/test1.bib
+  - /bib/test2.bib
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
