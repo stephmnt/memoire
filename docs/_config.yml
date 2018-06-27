@@ -1,8 +1,8 @@
-title: Immaculate
+title: Mémoire de recherche
 description: >
-  A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
-baseurl: "/immaculate"
-url: "127.0.0.1:4000"
+  Master Européen de Recherche en Formation des adultes
+baseurl:
+url:
 paginate:	2 # The number of posts to show per page on your homepage
 name: "Stéphane Manet"
 markdown: kramdown
