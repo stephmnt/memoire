@@ -1,8 +1,8 @@
 <header>
   <div class="page-links">
-    <a class="page-link" href="{{ site.url }}/{{ baseurl }}">accueil</a>
+    <a class="page-link" href="{{ site.url }}{{ baseurl }}">accueil</a>
     {% for page in site.pages %} {% if page.title %}
-      • <a class="page-link" href="{{ site.url }}/{{ baseurl }}/{{ page.url }}">{{ page.title }}</a>
+      • <a class="page-link" href="{{ site.url }}{{ baseurl }}/{{ page.url }}">{{ page.title }}</a>
     {% endif %} {% endfor %}
   </div>
 </header>
