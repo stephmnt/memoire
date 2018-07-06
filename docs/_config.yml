@@ -1,8 +1,8 @@
 title: Projet de mémoire
 description: >
   Dans le cadre du Merfa du CNAM.
-baseurl: "memoire"
-url: ""
+baseurl: ""
+url: "stephmnt.github.io/memoire"
 paginate:	2 # The number of posts to show per page on your homepage
 name: "Stéphane Manet"
 author_url: https://stephma.net
