@@ -3,12 +3,18 @@
   <head>
 
   {% include head.html %}
-
-  <bibtex src="https://raw.githubusercontent.com/stephmnt/memoire/master/bib/test1.bib"></bibtex>
+  <script src="assets/js/bibtex.min.js"></script>
+  <!-- <bibtex src="https://raw.githubusercontent.com/stephmnt/memoire/master/bib/test1.bib"></bibtex> -->
 
   {% for item in site.bibtex %}
     <bibtex src="https://raw.githubusercontent.com/{{ site.github_url }}/master/{{ item }}"></bibtex>
   {% endfor %}
+
+
+      <style>
+      bibtex { display: none; }
+      #bibtex_errors { margin-top:10px; color: red;}
+      </style>
 
   <!-- <bibtex src="test.bib"></bibtex> -->
 
@@ -16,19 +22,7 @@
   <body>
     {% include header.html %}
 
-    <article class="post">
-
-      <div class="post-meta">
-        <h1 class="post-title">{{ page.title }}</h1>
-      </div>
-
-      <section>
-        {{ content }}
-      </section>
-
-</article>
-
-{% include footer.html %}
+    {{ content }}
 
   </body>
 </html>

@@ -1,10 +1,11 @@
-title: Mémoire de recherche
+title: Projet de mémoire
 description: >
-  Master Européen de Recherche en Formation des adultes
-baseurl:
-url:
+  Dans le cadre du Merfa du CNAM.
+baseurl: ""
+url: ""
 paginate:	2 # The number of posts to show per page on your homepage
 name: "Stéphane Manet"
+author_url: https://stephma.net
 markdown: kramdown
 permalink: none
 kramdown:
