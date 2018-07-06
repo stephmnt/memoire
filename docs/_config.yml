@@ -1,7 +1,7 @@
 title: Projet de mémoire
 description: >
   Dans le cadre du Merfa du CNAM.
-baseurl: ""
+baseurl: "memoire"
 url: ""
 paginate:	2 # The number of posts to show per page on your homepage
 name: "Stéphane Manet"
