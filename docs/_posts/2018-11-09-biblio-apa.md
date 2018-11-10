@@ -37,3 +37,9 @@ Attention, natbib utilise un système de citations différent, il utilise soit c
 Dans tous les cas, la bibliographie sera tout aussi bien abondée. En résumé :
 
 <script src="https://gist.github.com/stephmnt/73bb8f3e8bda45e7c130faced95af299.js"></script>
+
+## Autres ressources utiles
+
+ * [http://merkel.texture.rocks/Latex/natbib.php?lang=fr](Pense-bête francophone pour natbib)
+ * [Un générateur de sources APA](https://www.scribbr.fr/logiciel-anti-plagiat/generateur-apa/)
+ 
