@@ -34,6 +34,6 @@ Attention, natbib utilise un système de citations différent, il utilise soit c
     \citet{bach}	    -->    	Bachelard (1938)
     \citep{bach}	    -->    	(Bachelard, 1938)
 
-Dans tous les cas, la bibliographie sera tout aussi bien abondée. En résumé : 
+Dans tous les cas, la bibliographie sera tout aussi bien abondée. En résumé :
 
-<script src="https://gist.github.com/stephmnt/1bbc9de56706c624c1a6e43abf441c1f.js"></script>
+<script src="https://gist.github.com/stephmnt/73bb8f3e8bda45e7c130faced95af299.js"></script>
