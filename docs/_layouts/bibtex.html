@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+
+  {% include head.html %}
+  <script src="assets/js/bibtex.min.js"></script>
+  <!-- <bibtex src="https://raw.githubusercontent.com/stephmnt/memoire/master/bib/test1.bib"></bibtex> -->
+
+  {% for item in site.bibtex %}
+    <bibtex src="https://raw.githubusercontent.com/{{ site.github_url }}/master/{{ item }}"></bibtex>
+  {% endfor %}
+
+
+      <style>
+      bibtex { display: none; }
+      #bibtex_errors { margin-top:10px; color: red;}
+      </style>
+
+  <!-- <bibtex src="test.bib"></bibtex> -->
+
+  </head>
+  <body>
+    {% include header.html %}
+
+    {{ content }}
+
+  </body>
+</html>

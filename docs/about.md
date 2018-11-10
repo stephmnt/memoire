@@ -4,22 +4,17 @@ title: À propos
 permalink: /about/
 ---
 
-### À propos de ce site
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac augue libero.
+Fusce ac tempor dolor. Ut est dui, gravida a consequat aliquet, fermentum
+sodales risus. Suspendisse eu arcu id mi ornare facilisis non id nisl. Maecenas
+nec congue arcu, non semper neque. Proin mollis nisl diam, eu ultrices diam
+facilisis et. Integer fringilla lorem quis semper venenatis.
 
-Le présent site est hébergé par github.com est développé avec [jekyllrb.com](https://jekyllrb.com/) dont le code source  [est disponible sur Github](https://github.com/jekyll/jekyll).
-Le design a été réalisé par HTML5 UP, [adapté pour Jekyll par Chris Bobbe](https://github.com/chrisbobbe/jekyll-theme-prologue). Enfin, je l'ai forké pour donner un look "LaTeX". [Ce fork est disponible sur GitHub](https://github.com/stephmnt/jekyll-latex) également.
-Toute la partie web de ce projet est sous la même licence  que le version initiale : Creative Commons 3.0 by-sa.
-
-La bibliographie a été réalisé grâce au script [bibtex-js](https://github.com/pcooksey/bibtex-js)
-
-La partie web de ce projet ce situe dans le dossier /docs. Pour l'exécuter en local, il faut d'abord installer Jekyll (et vérifier que votre version de ruby est à jour de la 2.3) :
-<pre>gem install jekyll bundler</pre>
-Ensuite, il faut lancer Jekyll :
-<pre>cd docs</pre>
-<pre>bundle exec jekyll serve</pre>
-<pre># => Puis visiter http://localhost:4000</pre>
-Plus d'informations sur la doc officielle de Jekyll, en particulier pour les utilisateurs de [Windows](https://jekyllrb.com/docs/windows/).
-
-### À propos du projet de mémoire
-
-Le mémoire a été rédigé avec LaTeX (prononcer latèque). Le code source du projet est disponible sur github avec la licence GNU GPL v3.
+Aliquam vestibulum purus enim. Sed rhoncus interdum erat id consequat. Nulla
+cursus venenatis massa, quis convallis lacus condimentum vel. Etiam mollis,
+orci ac pharetra commodo, diam lectus hendrerit eros, ac elementum magna augue
+sed tellus. Maecenas molestie, nisi ut sodales scelerisque, purus neque
+imperdiet dui, mollis elementum sem augue vel ipsum. Nulla lacinia arcu at quam
+lobortis, vitae interdum tellus fermentum. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Fusce sodales semper erat, eu fringilla ligula vulputate id. Maecenas quis libero pellentesque lacus
+egestas vehicula sit amet et neque. Nulla nec facilisis sem. Pellentesque rutrum elementum molestie.

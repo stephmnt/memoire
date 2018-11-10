@@ -1,15 +1,8 @@
-{%- comment -%}
-  Include vars:
-  scrolly_nav
-{%- endcomment -%}
-
-<!-- Header -->
-<div id="header">
-  <div class="top">
-    {%- include logo.html -%}
-    {%- include nav.html section_items=include.scrolly_nav -%}
+<header>
+  <div class="page-links">
+    <a class="page-link" href="{{ site.url }}{{ baseurl }}">accueil</a>
+    {% for page in site.pages %} {% if page.title %}
+      • <a class="page-link" href="{{ site.url }}{{ baseurl }}{{ page.url }}">{{ page.title }}</a>
+    {% endif %} {% endfor %}
   </div>
-  <div class="bottom">
-    {%- include social_icons.html -%}
-  </div>
-</div>
+</header>
