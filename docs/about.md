@@ -4,6 +4,8 @@ title: À propos
 permalink: /about/
 ---
 
+![oim](/assets/images/about.jpg)
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac augue libero.
 Fusce ac tempor dolor. Ut est dui, gravida a consequat aliquet, fermentum
 sodales risus. Suspendisse eu arcu id mi ornare facilisis non id nisl. Maecenas
