@@ -11,18 +11,18 @@
   <meta name="description" content="Dans le cadre du Merfa du CNAM.
 ">
 
-  <link rel="canonical" href="https://stephmnt.github.io/memoire/">
-  <link rel="alternate" type="application/rss+xml" title="Projet de mémoire" href="https://stephmnt.github.io/memoire/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="Projet de mémoire" href="http://localhost:4000/feed.xml">
 
   <script type="application/ld+json">
   
 {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "https://stephmnt.github.io/memoire/",
+  "mainEntityOfPage": "http://localhost:4000/",
   "headline": "Projet de mémoire",
-  "datePublished": "2018-11-11T17:40:28+01:00",
-  "dateModified": "2018-11-11T17:40:28+01:00",
+  "datePublished": "2018-11-23T21:31:24+01:00",
+  "dateModified": "2018-11-23T21:31:24+01:00",
   "description": "Dans le cadre du Merfa du CNAM.
 ",
   "author": {
@@ -34,14 +34,14 @@
     "name": "Projet de mémoire",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://stephmnt.github.io/memoire",
+      "url": "http://localhost:4000",
       "width": 60,
       "height": 60
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://stephmnt.github.io/memoire",
+    "url": "http://localhost:4000",
     "height": 60,
     "width": 60
   }
@@ -431,13 +431,13 @@ code {
   <body>
     <header>
   <div class="page-links">
-    <a class="page-link" href="https://stephmnt.github.io/memoire">accueil</a>
+    <a class="page-link" href="http://localhost:4000">accueil</a>
      
-      • <a class="page-link" href="https://stephmnt.github.io/memoire/about/">À propos</a>
+      • <a class="page-link" href="http://localhost:4000/about/">À propos</a>
       
-      • <a class="page-link" href="https://stephmnt.github.io/memoire/bibliographie.html">Bibliographie</a>
+      • <a class="page-link" href="http://localhost:4000/bibliographie.html">Bibliographie</a>
       
-      • <a class="page-link" href="https://stephmnt.github.io/memoire/contact/">Contact</a>
+      • <a class="page-link" href="http://localhost:4000/contact/">Contact</a>
          
   </div>
 </header>
@@ -456,7 +456,7 @@ code {
       <article itemscope itemtype="http://schema.org/BlogPosting" role="article">
 
           <header>
-            <h2 itemprop="name"><a href="https://stephmnt.github.io/memoire/biblio-apa.html" itemprop="url">Bibliographie APA</a></h2>
+            <h2 itemprop="name"><a href="http://localhost:4000/biblio-apa.html" itemprop="url">Bibliographie APA</a></h2>
           </header>
 
           <div class="post-meta">
@@ -469,9 +469,11 @@ code {
 <p>Il faut donc placer la bibliographie là où elle est censée se trouver dans le document (logiquement à la fin) intégrant les différents fichiers .bib</p>
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>\bibliography{file1.bib}
+  <div class="highlight">
+    <pre class="highlight"><code>\bibliography{file1.bib}
 \bibliography{file2.bib}    
 </code></pre>
+  </div>
 </div>
 
 <p>Etc.</p>
@@ -479,15 +481,19 @@ code {
 <p>S’agissant de la norme APA, il suffit d’intégrer le style avec APA like.</p>
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>\bibliographystyle{apalike}
+  <div class="highlight">
+    <pre class="highlight"><code>\bibliographystyle{apalike}
 </code></pre>
+  </div>
 </div>
 
 <p>J’obtiens par exemple avec :</p>
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code> \cite[pp. 132-137]{bach}
+  <div class="highlight">
+    <pre class="highlight"><code> \cite[pp. 132-137]{bach}
 </code></pre>
+  </div>
 </div>
 
 <p>Soit bach la référence de l’ID correspondant dans le fichier bib, ce qui donne dans le texte :</p>
@@ -497,16 +503,20 @@ code {
 <p>Je ne sais pas si cela vient de ma distribution (Tex Live) mais je me suis retrouvé avec des crochets. Du coup j’ai intégrer un package qui me fait une mise en forme plus standard.</p>
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>\usepackage{natbib}
+  <div class="highlight">
+    <pre class="highlight"><code>\usepackage{natbib}
 </code></pre>
+  </div>
 </div>
 
 <p>Attention, natbib utilise un système de citations différent, il utilise soit citet soit citep. Avec citet, on obtient l’auteur en dehors des parenthèses et avec citep l’auteur dedans.</p>
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>\citet{bach}	    --&gt;    	Bachelard (1938)
+  <div class="highlight">
+    <pre class="highlight"><code>\citet{bach}	    --&gt;    	Bachelard (1938)
 \citep{bach}	    --&gt;    	(Bachelard, 1938)
 </code></pre>
+  </div>
 </div>
 
 <p>Dans tous les cas, la bibliographie sera tout aussi bien abondée. En résumé :</p>
@@ -528,53 +538,7 @@ code {
       <article itemscope itemtype="http://schema.org/BlogPosting" role="article">
 
           <header>
-            <h2 itemprop="name"><a href="https://stephmnt.github.io/memoire/comparaison-propas.md.old" itemprop="url">Comparaison propas</a></h2>
-          </header>
-
-          <div class="post-meta">
-            <time datetime="30 April 2018">30 April 2018</time>
-          </div>
-
-          <section itemprop="description">
-            <p>En suivant les recommandations de Stéphane Balas après lui avoir soumis ma “propagande”, je l’ai adapté avant de l’envoyer officiellement le 11 avril.</p>
-
-<p>Ce jour le 30, je n’ai toujours pas de réponses, les vacances auront jouée sûrement mais je fais toute de sorte de relance dès ce jour.</p>
-
-<p>En attendant, je met dans les annexes du projet les versions de mes propagandes au format texte afin de permettre leur comparaison via github.com.</p>
-
-<p>Ce qu’on appelle un “commit” dans le jargon. <a href="https://github.com/stephmnt/at-ratp/commit/715b159048c0d5624498e9757057582034243e36?diff=split">Cliquer ici pour le consulter</a></p>
-
-          </section>
-
-      </article>
-    
-      <article itemscope itemtype="http://schema.org/BlogPosting" role="article">
-
-          <header>
-            <h2 itemprop="name"><a href="https://stephmnt.github.io/memoire/comparaison-propas.html" itemprop="url">Comparaison propas</a></h2>
-          </header>
-
-          <div class="post-meta">
-            <time datetime="30 April 2018">30 April 2018</time>
-          </div>
-
-          <section itemprop="description">
-            <p>En suivant les recommandations de Stéphane Balas après lui avoir soumis ma “propagande”, je l’ai adapté avant de l’envoyer officiellement le 11 avril.</p>
-
-<p>Ce jour le 30, je n’ai toujours pas de réponses, les vacances auront jouée sûrement mais je fais toute de sorte de relance dès ce jour.</p>
-
-<p>En attendant, je met dans les annexes du projet les versions de mes propagandes au format texte afin de permettre leur comparaison via github.com.</p>
-
-<p>Ce qu’on appelle un “commit” dans le jargon. <a href="https://github.com/stephmnt/at-ratp/commit/715b159048c0d5624498e9757057582034243e36?diff=split">Cliquer ici pour le consulter</a></p>
-
-          </section>
-
-      </article>
-    
-      <article itemscope itemtype="http://schema.org/BlogPosting" role="article">
-
-          <header>
-            <h2 itemprop="name"><a href="https://stephmnt.github.io/memoire/pre-projet.html" itemprop="url">Ajout du pré-projet</a></h2>
+            <h2 itemprop="name"><a href="http://localhost:4000/pre-projet.html" itemprop="url">Ajout du pré-projet</a></h2>
           </header>
 
           <div class="post-meta">
@@ -595,7 +559,7 @@ code {
       <article itemscope itemtype="http://schema.org/BlogPosting" role="article">
 
           <header>
-            <h2 itemprop="name"><a href="https://stephmnt.github.io/memoire/latex/ifpdf.html" itemprop="url">Package ifpdf</a></h2>
+            <h2 itemprop="name"><a href="http://localhost:4000/latex/ifpdf.html" itemprop="url">Package ifpdf</a></h2>
           </header>
 
           <div class="post-meta">
