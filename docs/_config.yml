@@ -14,5 +14,5 @@ kramdown:
 github_url: stephmnt/memoire
 
 bibtex:
-  - bib/test1.bib
-  - bib/test2.bib
+  - bib/theorie.bib
+  - bib/epistemologie.bib
